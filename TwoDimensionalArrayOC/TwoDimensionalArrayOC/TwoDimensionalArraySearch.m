@@ -10,7 +10,7 @@
 
 @implementation TwoDimensionalArraySearch
 
-- (BOOL)findTarget:(NSInteger)target inTwoDimensionalArray:(NSArray *)array; {
+- (BOOL)findTarget:(NSInteger)target inTwoDimensionalArray:(NSArray *)array {
     NSInteger row = [array count];
     if (row == 0) {
         return NO;
